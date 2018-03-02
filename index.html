@@ -303,7 +303,8 @@
       
         
           
-            <p>把使用了flak-SocketIO的flask项目部署在 Apache + mod_wsgi 上面，总是阻塞，无法正常访问。</p>
+            <p>title: flask-socketio 项目部署</p>
+<p>把使用了flak-SocketIO的flask项目部署在 Apache + mod_wsgi 上面，总是阻塞，无法正常访问。</p>
 <p>网搜后再这里找到了原因：<a href="https://stackoverflow.com/questions/29921671/flask-socketio-not-working-on-apache-wsgi" target="_blank" rel="external">Flask-SocketIO Not Working On Apache/WSGI</a> </p>
 <p>Apache 的wsgi服务器无法使用socketio，Gunicorn则可以使用。</p>
 <h3 id="查看flask-socketio文档的部署部分："><a href="#查看flask-socketio文档的部署部分：" class="headerlink" title="查看flask-socketio文档的部署部分："></a>查看flask-socketio文档的部署部分：</h3><p>部署Flask-SocketIO服务器有很多选择，方法有简单的也有及其复杂的。 在本节中，将介绍最常用的选项。</p>
