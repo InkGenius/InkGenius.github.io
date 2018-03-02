@@ -1,3 +1,5 @@
+title: flask-socketio 项目部署
+
 把使用了flak-SocketIO的flask项目部署在 Apache + mod_wsgi 上面，总是阻塞，无法正常访问。
 
 网搜后再这里找到了原因：[Flask-SocketIO Not Working On Apache/WSGI](https://stackoverflow.com/questions/29921671/flask-socketio-not-working-on-apache-wsgi) 
