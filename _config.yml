@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: JacQy 的学习小站
+title: JacQy 的学习小站
+subtitle: 
 description: All things are difficult before they are easy.
 author: 杰葵(JacQy)
 language: zh-Hans
@@ -80,9 +80,3 @@ deploy:
   type: git
   repo: git@github.com:InkGenius/InkGenius.github.io.git
   branch: master
-
-# add post views
-leancloud_visitors:
-  enable: true
-  app_id: 0sxj8g8de97pvyUWWIkuxzhw-gzGzoHsz
-  app_key: Q0b5FBGU2VkwcYaQ63As7vNw
