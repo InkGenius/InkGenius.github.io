@@ -1,5 +1,9 @@
 ---
 title: flask-socketio 项目部署
+categories: Python
+tags:
+  - flask
+  - 部署
 ---
 
 把使用了flak-SocketIO的flask项目部署在 Apache + mod_wsgi 上面，总是阻塞，无法正常访问。
